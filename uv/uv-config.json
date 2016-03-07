@@ -1,0 +1,250 @@
+
+{
+  "options": {
+    "leftPanelEnabled": true,
+    "minWidthBreakPoint": 610,
+    "overrideFullScreen": false,
+    "pagingEnabled": false,
+    "pessimisticAccessControl": false,
+    "preserveViewport": false,
+    "rightPanelEnabled": true,
+    "searchWithinEnabled": true,
+    "theme": "uv-en-GB-theme"
+  },
+  "modules": {
+    "dialogue": {
+      "content": {
+        "close": "CLOSE"
+      }
+    },
+    "loginDialogue": {
+      "content": {
+        "login": "LOGIN"
+      }
+    },
+    "downloadDialogue": {
+      "options": {
+        "confinedImageSize": 1000
+      },
+      "content": {
+        "currentViewAsJpg": "Current view (JPG)",
+        "download": "Download",
+        "editSettings": "Change settings",
+        "entireDocument": "Entire document ({0})",
+        "entireFileAsOriginal": "Entire file ({0})",
+        "noneAvailable": "No download options are available.",
+        "pagingNote": "Please turn off two-page view for more options.",
+        "preview": "Preview",
+        "title": "Download options",
+        "wholeImageHighRes": "High resolution image ({0})",
+        "wholeImageLowResAsJpg": "Low resolution image (JPG)"
+      }
+    },
+    "embedDialogue": {
+      "options": {
+        "embedTemplate": "<div class=\"uv\" data-locale=\"{0}\" data-config=\"{1}\" data-uri=\"{2}\" data-sequenceindex=\"{3}\" data-canvasindex=\"{4}\" data-zoom=\"{5}\" data-rotation=\"{6}\" style=\"width:{7}px; height:{8}px; background-color: #000\"></div><script type=\"text/javascript\" id=\"embedUV\" src=\"{9}\"></script><script type=\"text/javascript\">/* wordpress fix */</script>"
+      },
+      "content": {
+        "customSize": "Custom size",
+        "height": "Height",
+        "instructions": "To embed this item in your own website, copy and paste the code below:",
+        "title": "Embed",
+        "width": "Width"
+      }
+    },
+    "footerPanel": {
+      "options": {
+        "bookmarkEnabled": true,
+        "downloadEnabled": true,
+        "embedEnabled": true,
+        "fullscreenEnabled": true,
+        "minimiseButtons": false
+      },
+      "content": {
+        "download": "Download options",
+        "embed": "Embed",
+        "exitFullScreen": "Exit full screen",
+        "fullScreen": "Full screen"
+      }
+    },
+    "genericDialogue": {
+      "content": {
+        "emptyValue": "Please enter a value.",
+        "invalidNumber": "Please enter a valid number.",
+        "noMatches": "No matches were found.",
+        "ok": "OK",
+        "pageNotFound": "This item does not contain a page with the number you entered. Try switching the numbering mode to 'image'.",
+        "refresh": "Refresh"
+      }
+    },
+    "helpDialogue": {
+      "content": {
+        "text": "placeholder text",
+        "title": "Help"
+      }
+    },
+    "moreInfoRightPanel": {
+      "options": {
+        "panelAnimationDuration": 250,
+        "panelCollapsedWidth": 30,
+        "panelExpandedWidth": 255,
+        "panelOpen": false,
+        "textLimit": 4,
+        "textLimitType": "lines",
+        "displayOrder": "metadata, license, attribution",
+        "exclude": "logo"
+      },
+      "content": {
+        "collapse": "Collapse panel",
+        "collapseFull": "Collapse panel",
+        "expand": "Expand panel",
+        "expandFull": "Expand panel",
+        "holdingText": "Your module goes here!",
+        "less": "less",
+        "more": "more",
+        "noData": "No data to display",
+        "title": "More Information"
+      }
+    },
+    "pagingHeaderPanel": {
+      "options": {
+        "localeToggleEnabled": false,
+        "pageModeEnabled": true,
+        "pagingToggleEnabled": true
+      },
+      "content": {
+        "close": "Close",
+        "emptyValue": "Please enter a value",
+        "first": "First",
+        "firstImage": "First image",
+        "firstPage": "First page",
+        "folio": "Folio",
+        "go": "Go",
+        "help": "Help",
+        "image": "Image",
+        "last": "Last",
+        "lastImage": "Last image",
+        "lastPage": "Last page",
+        "next": "Next",
+        "nextImage": "Next image",
+        "nextPage": "Next page",
+        "of": "of {0}",
+        "oneUp": "Single page view",
+        "page": "Page",
+        "previous": "Previous",
+        "previousImage": "Previous image",
+        "previousPage": "Previous page",
+        "settings": "Settings",
+        "twoUp": "Two-page view"
+      }
+    },
+    "seadragonCenterPanel": {
+      "options": {
+        "controlsFadeAfterInactive": 1500,
+        "controlsFadeDelay": 250,
+        "controlsFadeLength": 250,
+        "defaultZoomLevel": 0,
+        "navigatorPosition": "BOTTOM_RIGHT",
+        "pageGap": 0.01,
+        "trimAttributionCount": 150
+      },
+      "content": {
+        "acknowledgements": "Acknowledgements",
+        "goHome": "Reset",
+        "imageUnavailable": "Image unavailable",
+        "next": "Next",
+        "previous": "Previous",
+        "rotateRight": "Rotate right",
+        "zoomIn": "Zoom in",
+        "zoomOut": "Zoom out"
+      }
+    },
+    "searchFooterPanel": {
+      "options": {
+        "elideDetailsTermsCount": 20,
+        "elideResultsTermsCount": 10,
+        "pageModeEnabled": true
+      },
+      "content": {
+        "clearSearch": "Clear search",
+        "defaultLabel": "-",
+        "displaying": "Displaying {0} {1} of {2}",
+        "enterKeyword": "Enter keyword",
+        "image": "image",
+        "imageCaps": "Image",
+        "instanceFound": "1 instance of '{0}' found",
+        "instancesFound": "{0} instances of '{1}' found",
+        "nextResult": "Next result",
+        "page": "page",
+        "pageCaps": "Page",
+        "previousResult": "Previous result",
+        "resultFoundFor": "result found for",
+        "resultsFoundFor": "results found for",
+        "searchWithin": "Search within this item:"
+      }
+    },
+    "settingsDialogue": {
+      "content": {
+        "locale": "Locale",
+        "pagingEnabled": "Two-page view",
+        "preserveViewport": "Preserve zoom",
+        "title": "Settings",
+        "website": "<a href='https://github.com/universalviewer/universalviewer'>More about this viewer</a>"
+      }
+    },
+    "contentLeftPanel": {
+      "options": {
+        "elideCount": 40,
+        "galleryThumbHeight": 320,
+        "galleryThumbWidth": 200,
+        "oneColThumbHeight": 320,
+        "oneColThumbWidth": 200,
+        "pageModeEnabled": true,
+        "panelAnimationDuration": 250,
+        "panelCollapsedWidth": 30,
+        "panelExpandedWidth": 255,
+        "panelOpen": true,
+        "thumbsEnabled": true,
+        "thumbsExtraHeight": 8,
+        "thumbsImageFadeInDuration": 300,
+        "thumbsLoadRange": 15,
+        "treeEnabled": true,
+        "twoColThumbHeight": 150,
+        "twoColThumbWidth": 90,
+        "tabOrder": "thumbnails,index"
+      },
+      "content": {
+        "collapse": "Collapse panel",
+        "collapseFull": "Collapse panel",
+        "expand": "Expand panel",
+        "expandFull": "Expand panel",
+        "index": "Index",
+        "thumbnails": "Preview",
+        "title": "Contents"
+      }
+    },
+    "clickThroughDialogue": {
+      "content": {
+        "acceptTerms": "I AGREE"
+      }
+    },
+    "restrictedDialogue": {
+      "content": {
+        "nextVisible": "Next visible item"
+      }
+    }
+  },
+  "localisation": {
+    "label": "English (GB)",
+    "locales": [
+      {
+        "name": "en-GB",
+        "label": "English (GB)"
+      }
+    ]
+  },
+  "content": {
+    "canvasIndexOutOfRange": "Canvas index out of range.",
+    "degradedResource": "This image is degraded."
+  }
+}

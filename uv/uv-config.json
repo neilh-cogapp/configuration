@@ -267,15 +267,6 @@
       }
     }
   },
-  "localisation": {
-    "label": "English (GB)",
-    "locales": [
-      {
-        "name": "en-GB",
-        "label": "English (GB)"
-      }
-    ]
-  },
   "content": {
     "authCORSError": "Your browser does not support CORS, please upgrade to view this content.",
     "authorisationFailedMessage": "Your log-in attempt did not appear to be successful. Please try again.",

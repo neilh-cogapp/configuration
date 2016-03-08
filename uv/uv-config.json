@@ -271,10 +271,6 @@
     "label": "English (GB)",
     "locales": [
       {
-        "name": "cy-GB",
-        "label": "Cymraeg"
-      },
-      {
         "name": "en-GB",
         "label": "English (GB)"
       }

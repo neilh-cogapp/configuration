@@ -269,10 +269,10 @@
   },
   "content": {
     "authCORSError": "Your browser does not support CORS, please upgrade to view this content.",
-    "authorisationFailedMessage": "Your log-in attempt did not appear to be successful. Please try again.",
+    "authorisationFailedMessage": "Your login attempt did not appear to be successful. Please try again.",
     "canvasIndexOutOfRange": "Canvas index out of range.",
     "degradedResourceMessage": "Please log in to view at full quality.",
     "degradedResourceLogin": "LOGIN",
-    "forbiddenResourceMessage": "Permission required to view this image."
+    "forbiddenResourceMessage": "Permission is required to view this image."
   }
 }

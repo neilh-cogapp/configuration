@@ -54,7 +54,7 @@
         "sortBy": "Sort By:",
         "thumbnails": "Images",
         "title": "Contents",
-        "volume": "volume"
+        "volume": "Volume"
       }
     },
     "dialogue": {
@@ -71,13 +71,13 @@
       "content": {
         "currentViewAsJpg": "Current view {0} x {1}px (jpg)",
         "download": "Download",
-        "downloadSelection": "Download Selection",
+        "downloadSelection": "Download selection",
         "downloadSelectionButton": "Download PDF",
-        "editSettings": "Edit Settings",
+        "editSettings": "Edit settings",
         "entireDocument": "Entire document ({0})",
         "entireFileAsOriginal": "Entire file ({0})",
         "noneAvailable": "No download options are available.",
-        "pagingNote": "Please turn off two-page View for more options.",
+        "pagingNote": "Please turn off two-page view for more options.",
         "preview": "Preview",
         "title": "Download options",
         "wholeImageHighRes": "Whole image {0} x {1}px ({2})",
@@ -108,7 +108,7 @@
       },
       "content": {
         "bookmark": "Add to bookmarks",
-        "download": "Download",
+        "download": "Download options",
         "embed": "Embed",
         "feedback": "Feedback",
         "exitFullScreen": "Exit full screen",

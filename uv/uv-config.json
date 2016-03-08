@@ -77,7 +77,7 @@
         "entireDocument": "Entire document ({0})",
         "entireFileAsOriginal": "Entire file ({0})",
         "noneAvailable": "No download options are available.",
-        "pagingNote": "Please turn off two-page view for more options.",
+        "pagingNote": "Please turn off two-page View for more options.",
         "preview": "Preview",
         "title": "Download options",
         "wholeImageHighRes": "Whole image {0} x {1}px ({2})",
@@ -134,21 +134,14 @@
     },
     "moreInfoRightPanel": {
       "options": {
-        "displayOrder": "",
-        "exclude": "",
         "panelAnimationDuration": 250,
         "panelCollapsedWidth": 30,
         "panelExpandedWidth": 255,
         "panelOpen": false,
         "textLimit": 4,
-        "textLimitType": "lines"
-	"displayOrder"
-Error: Parse error on line 144:
-...imitType": "lines"	"displayOrder": "met
-----------------------^
-Expecting 'EOF', '}', ':', ',', ']'
-: "metadata, license, attribution",
-	"exclude": "logo"
+        "textLimitType": "lines",
+        "displayOrder": "metadata, license, attribution",
+	    "exclude": "logo"
       },
       "content": {
         "attribution": "Attribution",

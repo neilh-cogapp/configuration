@@ -65,7 +65,7 @@
     "downloadDialogue": {
       "options": {
         "confinedImageSize": 1000,
-        "maxImageWidth": 1000,
+        "maxImageWidth": 9000,
         "selectionEnabled": false
       },
       "content": {

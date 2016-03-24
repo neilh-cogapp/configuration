@@ -3,7 +3,7 @@
   "options": {
     "bookmarkThumbHeight": 150,
     "bookmarkThumbWidth": 90,
-    "leftPanelEnabled": true,
+    "leftPanelEnabled": false,
     "limitLocales": false,
     "minWidthBreakPoint": 610,
     "navigatorEnabled": true,

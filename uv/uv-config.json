@@ -116,6 +116,11 @@
         "open": "Open"
       }
     },
+    "resourcesLeftPanel": {
+      "options": {
+        "panelOpen": false
+      }
+    },
     "genericDialogue": {
       "content": {
         "emptyValue": "Please enter a value.",

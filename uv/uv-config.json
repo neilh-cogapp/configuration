@@ -3,7 +3,7 @@
     "bookmarkThumbHeight": 150,
     "bookmarkThumbWidth": 90,
     "leftPanelEnabled": true,
-    "limitLocales": false,
+    "limitLocales": true,
     "minWidthBreakPoint": 610,
     "navigatorEnabled": true,
     "openTemplate": "http://universalviewer.io?manifest={0}",

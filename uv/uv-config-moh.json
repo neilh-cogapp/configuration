@@ -3,7 +3,7 @@
   "options": {
     "bookmarkThumbHeight": 150,
     "bookmarkThumbWidth": 90,
-    "leftPanelEnabled": false,
+    "leftPanelEnabled": true,
     "limitLocales": false,
     "minWidthBreakPoint": 610,
     "navigatorEnabled": true,
@@ -32,7 +32,7 @@
         "panelAnimationDuration": 250,
         "panelCollapsedWidth": 30,
         "panelExpandedWidth": 255,
-        "panelOpen": true,
+        "panelOpen": false,
         "tabOrder": "",
         "thumbsEnabled": true,
         "thumbsExtraHeight": 8,
@@ -99,7 +99,7 @@
     },
     "footerPanel": {
       "options": {
-        "bookmarkEnabled": true,
+        "bookmarkEnabled": false,
         "downloadEnabled": true,
         "embedEnabled": true,
         "feedbackEnabled": false,

@@ -39,7 +39,9 @@
         "thumbsLoadRange": 15,
         "treeEnabled": true,
         "twoColThumbHeight": 150,
-        "twoColThumbWidth": 90
+        "twoColThumbWidth": 90,
+        "defaultToTreeEnabled": true,
+        "defaultToTreeIfGreaterThan": 4
       },
       "content": {
         "collapse": "Collapse panel",

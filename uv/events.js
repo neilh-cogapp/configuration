@@ -36,7 +36,7 @@ $(function() {
     });
 
     $(document).bind('uv.onCanvasIndexChanged', function (event, obj) {
-        //console.log('uv.onCanvasIndexChanged', obj);
+        trackEvent('Pages', 'Viewed', trackingLabel);
     });
 
     $(document).bind('uv.onClickthroughOccurred', function (event, obj) {
@@ -70,22 +70,22 @@ $(function() {
     $(document).bind('uv.onDownload', function (event, obj) {
         switch(obj.type){
             case "entireDocumentAsPdf" :
-                trackEvent(files, 'Downloaded - Entire Document As PDF, ' + trackingLabel);
+                trackEvent(files, 'Downloaded - Entire Document As PDF', trackingLabel);
                 break;
             case "currentView" :
-                trackEvent(files, 'Downloaded - Current View, ' + trackingLabel);
+                trackEvent(files, 'Downloaded - Current View', trackingLabel);
                 break;
             case "wholeImageHighRes" :
-                trackEvent(files, 'Downloaded - Whole Image High Res, ' + trackingLabel);
+                trackEvent(files, 'Downloaded - Whole Image High Res', trackingLabel);
                 break;
             case "wholeImageLowRes" :
-                trackEvent(files, 'Downloaded - Whole Image Low Res, ' + trackingLabel);
+                trackEvent(files, 'Downloaded - Whole Image Low Res', trackingLabel);
                 break;
             case "entireDocumentAsPdf" :
-                trackEvent(files, 'Downloaded - Entire Document As PDF, ' + trackingLabel);
+                trackEvent(files, 'Downloaded - Entire Document As PDF', trackingLabel);
                 break;
             case "entireDocumentAsText" :
-                trackEvent(files, 'Downloaded - Entire Document As Text, ' + trackingLabel);
+                trackEvent(files, 'Downloaded - Entire Document As Text', trackingLabel);
                 break;
         }
     });
@@ -142,6 +142,10 @@ $(function() {
 
     $(document).bind('uv.onHideOverlay', function (event, obj) {
         //console.log('uv.onHideOverlay');
+    });
+
+    $(document).bind('uv.onHideRestrictedDialogue', function (event, obj) {
+        trackEvent(playerInteractions, 'Restricted file', 'Closed, ' + trackingLabel);
     });
 
     $(document).bind('uv.onHideSettingsDialogue', function (event, obj) {
@@ -255,9 +259,9 @@ $(function() {
 
         if (settings.pagingEnabled !== obj.pagingEnabled) {
             if (obj.pagingEnabled) {
-                trackEvent(playerInteractions, 'Two Page View', 'Opened, ' + trackingLabel);
+                trackEvent(playerInteractions, 'Two Page View Enabled', 'True, ' + trackingLabel);
             } else {
-                trackEvent(playerInteractions, 'Two Page View', 'Closed, ' + trackingLabel);
+                trackEvent(playerInteractions, 'Two Page View Enabled', 'False, ' + trackingLabel);
             }
         }
 
@@ -314,6 +318,10 @@ $(function() {
 
     $(document).bind('uv.onShowOverlay', function (event, obj) {
         //console.log('uv.onShowOverlay');
+    });
+
+    $(document).bind('uv.onShowRestrictedDialogue', function (event, obj) {
+        trackEvent(playerInteractions, 'Restricted file', 'Opened, ' + trackingLabel);
     });
 
     $(document).bind('uv.onShowSettingsDialogue', function (event, obj) {
@@ -414,6 +422,14 @@ $(function() {
         //console.log('seadragonExtension.onPageSearch');
     });
 
+    $(document).bind('seadragonExtension.onPagingToggled', function (event, obj) {
+        if (obj){
+            trackEvent(playerInteractions, 'Two page view', 'Opened, ' + trackingLabel);
+        } else {
+            trackEvent(playerInteractions, 'Two page view', 'Closed, ' + trackingLabel);
+        }
+    });
+
     $(document).bind('seadragonExtension.onPrev', function (event, obj) {
         //console.log('seadragonExtension.onPrev');
     });
@@ -475,15 +491,15 @@ $(function() {
     });
 
     $(document).bind('mediaelementExtension.onMediaEnded', function (event, obj) {
-        trackEvent(playerInteractions, 'Ended, ' + trackingLabel);
+        trackEvent(playerInteractions, 'Ended', trackingLabel);
     });
 
     $(document).bind('mediaelementExtension.onMediaPaused', function (event, obj) {
-        trackEvent(playerInteractions, 'Pause, ' + trackingLabel);
+        trackEvent(playerInteractions, 'Pause', trackingLabel);
     });
 
     $(document).bind('mediaelementExtension.onMediaPlayed', function (event, obj) {
-        trackEvent(playerInteractions, 'Play, ' + trackingLabel);
+        trackEvent(playerInteractions, 'Play', trackingLabel);
     });
 
 });
